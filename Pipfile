@@ -12,6 +12,7 @@ django = ">=2.0"
 gunicorn = "*"
 dj-database-url = "*"
 whitenoise = "*"
+raven = "*"
 
 
 [dev-packages]
