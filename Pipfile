@@ -11,6 +11,7 @@ django = ">=2.0"
 "psycopg2" = "*"
 gunicorn = "*"
 dj-database-url = "*"
+whitenoise = "*"
 
 
 [dev-packages]
