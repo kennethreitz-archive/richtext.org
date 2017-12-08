@@ -9,6 +9,7 @@ name = "pypi"
 
 django = ">=2.0"
 "psycopg2" = "*"
+gunicorn = "*"
 
 
 [dev-packages]
