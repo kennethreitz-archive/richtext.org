@@ -59,10 +59,11 @@ ROOT_URLCONF = 'richtext.urls'
 
 TEMPLATES = [
     {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'BACKEND': 'django.template.backends.jinja2.Jinja2',
         'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
+            'environment': 'richtext.jinja2.environment',
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
@@ -83,7 +84,7 @@ DATABASES = {
     'default': dj_database_url.config(conn_max_age=600)
 }
 
-# Keep sessions out of the DB, ew. 
+# Keep sessions out of the DB, ew.
 SESSION_ENGINE = 'django.contrib.sessions.backends.signed_cookies'
 
 # Password validation

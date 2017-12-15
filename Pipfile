@@ -14,6 +14,7 @@ dj-database-url = "*"
 whitenoise = "*"
 raven = "*"
 django-heroku = "*"
+"jinja2" = "*"
 
 
 [dev-packages]
