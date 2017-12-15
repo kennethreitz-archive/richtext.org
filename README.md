@@ -11,6 +11,7 @@ Going to keep it pretty basic, and use this as an excuse to get familiar with Dj
 - Django 2.0
 - Postgres or DynamoDB
 - "HTML5"
+    - https://mindmup.github.io/bootstrap-wysiwyg/
 - Heroku
 
 That's basically it!
